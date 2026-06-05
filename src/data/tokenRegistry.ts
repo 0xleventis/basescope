@@ -51,7 +51,7 @@ export const TOKEN_REGISTRY: Record<string, TokenRegistryEntry> = {
     tags:        ['DeFi', 'Yield'],
   },
 
-  'base_0xed6367dd54b526687df81f9b1dbaacfe182eba3': {
+  '0xc83ab83334651f7221b642010621c206bdd939afd8b7dfb3423807ff6132d20b': {
     name:        'TAP',
     symbol:      'TAP',
     logoUrl:     '/token-logos/tap.png',
