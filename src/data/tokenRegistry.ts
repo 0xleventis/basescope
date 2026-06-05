@@ -49,16 +49,17 @@ export const TOKEN_REGISTRY: Record<string, TokenRegistryEntry> = {
     telegram:    'https://t.me/',
     discord:     'https://discord.gg/',
     tags:        ['DeFi', 'Yield'],
-      },
-    'base_0xeD6367dD54B526687Df81f9b1DbaAACfE182ebA3': {
+  },
+
+  'base_0xed6367dd54b526687df81f9b1dbaacfe182eba3': {
     name:        'TAP',
     symbol:      'TAP',
     logoUrl:     '/token-logos/tap.png',
-    description: 'Official base screener.',
+    description: "I made this image during a moment of FOMO posting on the Base app, a time that still feels oddly vivid in hindsight. It's memorable how Jesse Pollak from Base interacted with my post multiple times, even trading around it in ways that caught me off guard. That small sequence of interactions turned what was just a casual post into something unexpectedly meaningful and impressive, almost like a snapshot of how fast and alive the ecosystem felt in that moment. 7:19 pm.",
     website:     'https://belajarbase.fun/',
     twitter:     'https://x.com/arthousebase/status/2062954514790142067',
     telegram:    'https://t.me/',
     discord:     'https://discord.gg/',
     tags:        ['DeFi', 'Yield'],
-      },
+  },
 };
