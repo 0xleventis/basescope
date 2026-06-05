@@ -50,7 +50,7 @@ export const TOKEN_REGISTRY: Record<string, TokenRegistryEntry> = {
     discord:     'https://discord.gg/',
     tags:        ['DeFi', 'Yield'],
       },
-    '0xeD6367dD54B526687Df81f9b1DbaAACfE182ebA3': {
+    'base_0xeD6367dD54B526687Df81f9b1DbaAACfE182ebA3': {
     name:        'TAP',
     symbol:      'TAP',
     logoUrl:     '/token-logos/tap.png',
@@ -59,7 +59,6 @@ export const TOKEN_REGISTRY: Record<string, TokenRegistryEntry> = {
     twitter:     'https://x.com/arthousebase/status/2062954514790142067',
     telegram:    'https://t.me/',
     discord:     'https://discord.gg/',
-
     tags:        ['DeFi', 'Yield'],
-  },
+      },
 };
