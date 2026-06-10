@@ -1,0 +1,17 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjg0MzYzMCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEQ2ZjMwMjEyYTY2Rjk1QTQ2N2FGZjgyRDgxQkNlOTA2NzMzMkEzRjkifQ",
+    "payload": "eyJkb21haW4iOiJiYXNlc2NvcGVzLnh5eiJ9",
+    "signature": "BZhqt7GgUkPq2OLFIcwFTL4geVC4ittJ0OdLCfWIO6NYPz6CiIhbzjH6yRw98KQXH0AoKkz7hbjbmHpd0TqSths"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Base Scope",
+    "homeUrl": "https://basescopes.xyz",
+    "iconUrl": "https://basescopes.xyz/logo.png",
+    "imageUrl": "https://basescopes.xyz/og.png",
+    "buttonTitle": "Open Base Scope",
+    "splashImageUrl": "https://basescopes.xyz/logo.png",
+    "splashBackgroundColor": "#0a0a0f"
+  }
+}

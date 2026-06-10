@@ -8,9 +8,14 @@ import { NewPairsPage } from './pages/NewPairs';
 import { WatchlistPage } from './pages/Watchlist';
 import { ErrorBoundary } from './components/common/ErrorBoundary';
 import { useStore } from './store/useStore';
+import sdk from '@farcaster/miniapp-sdk';
 
 export default function App() {
   const { theme, setSearchOpen } = useStore();
+
+  useEffect(() => {
+    sdk.actions.ready();
+  }, []);
 
   useEffect(() => {
     if (theme === 'dark') {
