@@ -57,9 +57,13 @@ export const NETWORKS: Record<string, NetworkMeta> = {
     id: 'blast', name: 'Blast', shortName: 'BLAST',
     color: '#fcfc03', bgColor: 'rgba(252,252,3,0.12)', icon: '◆',
   },
+  robinhood: {
+    id: 'robinhood', name: 'Robinhood', shortName: 'HOOD',
+    color: '#00c805', bgColor: 'rgba(0,200,5,0.15)', icon: '◈',
+  },
 };
 
-export const FEATURED_NETWORKS = ['eth', 'bsc', 'solana', 'base', 'arbitrum', 'polygon_pos', 'optimism'];
+export const FEATURED_NETWORKS = ['eth', 'bsc', 'solana', 'base', 'arbitrum', 'polygon_pos', 'optimism', 'robinhood'];
 
 export function getNetwork(id: string): NetworkMeta {
   return NETWORKS[id] ?? {

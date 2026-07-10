@@ -29,7 +29,7 @@ interface AppState {
 export const useStore = create<AppState>()(
   persist(
     (set, get) => ({
-      selectedNetwork: 'eth',
+      selectedNetwork: 'robinhood',
       activeTab: 'trending',
       sortField: 'volume_h24',
       sortDir: 'desc',
